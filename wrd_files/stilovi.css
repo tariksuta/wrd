@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(25, 80, 139);
+    width: 30%;
+    padding: 20px;
+}
+
+#IzbornikDugme {
+    cursor: pointer;
+}
+
+#IzbornikDugme {
+    color: white;
+    padding-right: 10px;
+}
+
+.IzbornikStavka {
+    display: block;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.IzbornikStavka:hover {
+    background-color: rgb(24, 118, 201);
+}
+
+#wrapper {
+    margin-left: 35%;
+    margin-right: 5%;
+}
+
+.VilaKolonaWrapper {
+    float: left;
+    width: calc(33.3% - 30px);
+    height: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.VilaKolonaOkvir:hover {
+    opacity: 0.8;
+}
+
+img {
+    width: 100%;
+}
+
+.Kontejner {
+    clear: both;
+}
+
+#podaci {
+    margin-top: 100px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    #Izbornik {
+        text-align: center;
+    }
+    .IzbornikStavka {
+        border-bottom: 1px solid white;
+    }
+    #wrapper {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .VilaKolonaWrapper {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 280px;
+    }
+    h3,
+    h4 {
+        text-align: center;
+    }
+}
