@@ -123,6 +123,8 @@ function dodajRed() {
         tr.appendChild(td3);
         tr.appendChild(td4);
         tr.appendChild(td5);
+        tr.appendChild(td6);
+        tr.appendChild(td7);
         brojac++;
     }
 }
